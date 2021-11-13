@@ -1,0 +1,90 @@
+:root {
+    --primary-color: #14b9d5;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #9a9a9a;
+
+    --header-height: 870px;
+    --navbar-height: 100px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Space */
+.space-section {
+    width: 100%;
+    float: left;
+}
+
+.space-section-h5 {
+    height: 5px;
+}
+
+.space-section-h35 {
+    height: 35px;
+}
+
+.space-section-h55 {
+    height: 55px;
+}
+
+.space-section-h65 {
+    height: 65px;
+}
+
+/* Customize form */
+.form_customizer {
+    background-color: #f9f9f9;
+    border-width: 1px;
+    border-color: #f1f1f1;
+    border-radius: 30px;
+    border-style: solid;
+    -webkit-appearance: none;
+    color: #a3a3a3;
+}
+
+input[type="submit"],
+button[type="submit"] {
+    background-color: var(--primary-color);
+    border-width: 0;
+    border-color: var(--white-color);
+    border-radius: 30px;
+    border-style: solid;
+    padding: 10px 20px;
+    -webkit-appearance: none;
+    color: var(--white-color);
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type="submit"] {
+    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/plugins/nd-travel/addons/visual/search/layout/icon-search-grey.png);
+    background-size: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 47px;
+    height: 47px;
+}
+
+.clearfix::before {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
